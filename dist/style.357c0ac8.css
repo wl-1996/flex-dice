@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+}
+.container .box {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border: 1px solid blue;
+  margin: 5px;
+  background-color: #f2f2f2;
+  box-shadow: 3px 10px 5px 0px #999999;
+}
+.container .box .item {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+}
+.container .one {
+  justify-content: center;
+  align-items: center;
+}
+.container .two {
+  justify-content: space-around;
+  align-items: center;
+}
+.container .three {
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.container .three div:first-child {
+  align-self: flex-start;
+}
+.container .three div:last-child {
+  align-self: flex-end;
+}
+.container .four {
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .four div {
+  display: flex;
+  justify-content: space-around;
+}
+.container .six {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container .six div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/*# sourceMappingURL=style.357c0ac8.css.map */
